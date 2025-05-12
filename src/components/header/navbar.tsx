@@ -4,38 +4,38 @@ import { Button } from "@/components/ui/button";
 export default function navbar() {
   return (
     <>
-      <header className="border-b border-gray-800 bg-background sticky top-0 z-10">
+      <header className="border-b border-gray-800 bg-[#030712]/50 backdrop-blur-sm sticky top-0 z-10">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <h1 className="text-xl font-bold bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
-              Crickstock11
+              Cricstock11
             </h1>
           </div>
 
           <nav className="hidden md:flex items-center gap-6">
             <a
-              href="#"
+              href="/"
               className="text-gray-400 hover:text-white transition-colors"
             >
               Home
             </a>
             <a
-              href="#"
+              href="/live-matches"
               className="text-gray-400 hover:text-white transition-colors"
             >
               Live Matches
             </a>
-            <a href="#" className="text-white font-medium">
+            <a href="/portfolio" className="text-white font-medium">
               Portfolio
             </a>
             <a
-              href="#"
+              href="/contact"
               className="text-gray-400 hover:text-white transition-colors"
             >
               Contact
             </a>
             <a
-              href="#"
+              href="/aboutus"
               className="text-gray-400 hover:text-white transition-colors"
             >
               About Us
