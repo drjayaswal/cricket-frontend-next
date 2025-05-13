@@ -7,7 +7,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className={cn("max-w-screen w-full mx-auto bg-gray-900 px-5 flex justify-between items-center transition-normal duration-500")}>
+      <div className={cn("max-w-screen w-full mx-auto bg-background/60 border-b border-gray-800 backdrop-blur-sm px-5 flex justify-between items-center transition-normal duration-500")}>
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Link
@@ -29,6 +29,7 @@ const Navbar = () => {
                 </Link>
               ))
             }
+
           </nav>
 
           <div className="flex items-center gap-3">
@@ -46,7 +47,7 @@ const Navbar = () => {
             </Avatar>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }

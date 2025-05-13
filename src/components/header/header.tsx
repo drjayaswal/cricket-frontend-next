@@ -3,7 +3,7 @@ import Navbar from "@/components/header/navbar"
 
 const Header = ({ className }: { className?: String }) => {
   return (
-    <header className={cn("", className)}>
+    <header className={cn("z-50 fixed w-screen", className)}>
       <Navbar />
     </header>
   )
